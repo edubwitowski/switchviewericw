@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD61AEA203255750001503E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61AE9203255750001503E /* AppDelegate.swift */; };
+		FAD61AEC203255750001503E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61AEB203255750001503E /* ViewController.swift */; };
+		FAD61AEF203255750001503E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD61AED203255750001503E /* Main.storyboard */; };
+		FAD61AF1203255750001503E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD61AF0203255750001503E /* Assets.xcassets */; };
+		FAD61AF4203255750001503E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD61AF2203255750001503E /* LaunchScreen.storyboard */; };
+		FAD61AFF203255750001503E /* switchviewericwTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61AFE203255750001503E /* switchviewericwTests.swift */; };
+		FAD61B0A203255750001503E /* switchviewericwUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B09203255750001503E /* switchviewericwUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD61AFB203255750001503E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD61ADE203255750001503E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD61AE5203255750001503E;
+			remoteInfo = switchviewericw;
+		};
+		FAD61B06203255750001503E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD61ADE203255750001503E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD61AE5203255750001503E;
+			remoteInfo = switchviewericw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD61AE6203255750001503E /* switchviewericw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switchviewericw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD61AE9203255750001503E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD61AEB203255750001503E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD61AEE203255750001503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD61AF0203255750001503E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD61AF3203255750001503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD61AF5203255750001503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD61AFA203255750001503E /* switchviewericwTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchviewericwTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD61AFE203255750001503E /* switchviewericwTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switchviewericwTests.swift; sourceTree = "<group>"; };
+		FAD61B00203255750001503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD61B05203255750001503E /* switchviewericwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchviewericwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD61B09203255750001503E /* switchviewericwUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switchviewericwUITests.swift; sourceTree = "<group>"; };
+		FAD61B0B203255750001503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD61AE3203255750001503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD61AF7203255750001503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD61B02203255750001503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD61ADD203255750001503E = {
+			isa = PBXGroup;
+			children = (
+				FAD61AE8203255750001503E /* switchviewericw */,
+				FAD61AFD203255750001503E /* switchviewericwTests */,
+				FAD61B08203255750001503E /* switchviewericwUITests */,
+				FAD61AE7203255750001503E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD61AE7203255750001503E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD61AE6203255750001503E /* switchviewericw.app */,
+				FAD61AFA203255750001503E /* switchviewericwTests.xctest */,
+				FAD61B05203255750001503E /* switchviewericwUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD61AE8203255750001503E /* switchviewericw */ = {
+			isa = PBXGroup;
+			children = (
+				FAD61AE9203255750001503E /* AppDelegate.swift */,
+				FAD61AEB203255750001503E /* ViewController.swift */,
+				FAD61AED203255750001503E /* Main.storyboard */,
+				FAD61AF0203255750001503E /* Assets.xcassets */,
+				FAD61AF2203255750001503E /* LaunchScreen.storyboard */,
+				FAD61AF5203255750001503E /* Info.plist */,
+			);
+			path = switchviewericw;
+			sourceTree = "<group>";
+		};
+		FAD61AFD203255750001503E /* switchviewericwTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD61AFE203255750001503E /* switchviewericwTests.swift */,
+				FAD61B00203255750001503E /* Info.plist */,
+			);
+			path = switchviewericwTests;
+			sourceTree = "<group>";
+		};
+		FAD61B08203255750001503E /* switchviewericwUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD61B09203255750001503E /* switchviewericwUITests.swift */,
+				FAD61B0B203255750001503E /* Info.plist */,
+			);
+			path = switchviewericwUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD61AE5203255750001503E /* switchviewericw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD61B0E203255750001503E /* Build configuration list for PBXNativeTarget "switchviewericw" */;
+			buildPhases = (
+				FAD61AE2203255750001503E /* Sources */,
+				FAD61AE3203255750001503E /* Frameworks */,
+				FAD61AE4203255750001503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = switchviewericw;
+			productName = switchviewericw;
+			productReference = FAD61AE6203255750001503E /* switchviewericw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD61AF9203255750001503E /* switchviewericwTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD61B11203255750001503E /* Build configuration list for PBXNativeTarget "switchviewericwTests" */;
+			buildPhases = (
+				FAD61AF6203255750001503E /* Sources */,
+				FAD61AF7203255750001503E /* Frameworks */,
+				FAD61AF8203255750001503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD61AFC203255750001503E /* PBXTargetDependency */,
+			);
+			name = switchviewericwTests;
+			productName = switchviewericwTests;
+			productReference = FAD61AFA203255750001503E /* switchviewericwTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD61B04203255750001503E /* switchviewericwUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD61B14203255750001503E /* Build configuration list for PBXNativeTarget "switchviewericwUITests" */;
+			buildPhases = (
+				FAD61B01203255750001503E /* Sources */,
+				FAD61B02203255750001503E /* Frameworks */,
+				FAD61B03203255750001503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD61B07203255750001503E /* PBXTargetDependency */,
+			);
+			name = switchviewericwUITests;
+			productName = switchviewericwUITests;
+			productReference = FAD61B05203255750001503E /* switchviewericwUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD61ADE203255750001503E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Eric Witowski";
+				TargetAttributes = {
+					FAD61AE5203255750001503E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FAD61AF9203255750001503E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAD61AE5203255750001503E;
+					};
+					FAD61B04203255750001503E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAD61AE5203255750001503E;
+					};
+				};
+			};
+			buildConfigurationList = FAD61AE1203255750001503E /* Build configuration list for PBXProject "switchviewericw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD61ADD203255750001503E;
+			productRefGroup = FAD61AE7203255750001503E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD61AE5203255750001503E /* switchviewericw */,
+				FAD61AF9203255750001503E /* switchviewericwTests */,
+				FAD61B04203255750001503E /* switchviewericwUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD61AE4203255750001503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD61AF4203255750001503E /* LaunchScreen.storyboard in Resources */,
+				FAD61AF1203255750001503E /* Assets.xcassets in Resources */,
+				FAD61AEF203255750001503E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD61AF8203255750001503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD61B03203255750001503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD61AE2203255750001503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD61AEC203255750001503E /* ViewController.swift in Sources */,
+				FAD61AEA203255750001503E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD61AF6203255750001503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD61AFF203255750001503E /* switchviewericwTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD61B01203255750001503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD61B0A203255750001503E /* switchviewericwUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD61AFC203255750001503E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD61AE5203255750001503E /* switchviewericw */;
+			targetProxy = FAD61AFB203255750001503E /* PBXContainerItemProxy */;
+		};
+		FAD61B07203255750001503E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD61AE5203255750001503E /* switchviewericw */;
+			targetProxy = FAD61B06203255750001503E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD61AED203255750001503E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD61AEE203255750001503E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD61AF2203255750001503E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD61AF3203255750001503E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD61B0C203255750001503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD61B0D203255750001503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD61B0F203255750001503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchviewericw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.witowskieric71.switchviewericw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD61B10203255750001503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchviewericw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.witowskieric71.switchviewericw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAD61B12203255750001503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchviewericwTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.witowskieric71.switchviewericwTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switchviewericw.app/switchviewericw";
+			};
+			name = Debug;
+		};
+		FAD61B13203255750001503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchviewericwTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.witowskieric71.switchviewericwTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switchviewericw.app/switchviewericw";
+			};
+			name = Release;
+		};
+		FAD61B15203255750001503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchviewericwUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.witowskieric71.switchviewericwUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = switchviewericw;
+			};
+			name = Debug;
+		};
+		FAD61B16203255750001503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = switchviewericwUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.witowskieric71.switchviewericwUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = switchviewericw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD61AE1203255750001503E /* Build configuration list for PBXProject "switchviewericw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD61B0C203255750001503E /* Debug */,
+				FAD61B0D203255750001503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD61B0E203255750001503E /* Build configuration list for PBXNativeTarget "switchviewericw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD61B0F203255750001503E /* Debug */,
+				FAD61B10203255750001503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD61B11203255750001503E /* Build configuration list for PBXNativeTarget "switchviewericwTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD61B12203255750001503E /* Debug */,
+				FAD61B13203255750001503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD61B14203255750001503E /* Build configuration list for PBXNativeTarget "switchviewericwUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD61B15203255750001503E /* Debug */,
+				FAD61B16203255750001503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD61ADE203255750001503E /* Project object */;
+}
