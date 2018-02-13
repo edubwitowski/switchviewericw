@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		FAD61AEA203255750001503E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61AE9203255750001503E /* AppDelegate.swift */; };
-		FAD61AEC203255750001503E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61AEB203255750001503E /* ViewController.swift */; };
 		FAD61AEF203255750001503E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD61AED203255750001503E /* Main.storyboard */; };
 		FAD61AF1203255750001503E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD61AF0203255750001503E /* Assets.xcassets */; };
 		FAD61AF4203255750001503E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD61AF2203255750001503E /* LaunchScreen.storyboard */; };
 		FAD61AFF203255750001503E /* switchviewericwTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61AFE203255750001503E /* switchviewericwTests.swift */; };
 		FAD61B0A203255750001503E /* switchviewericwUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B09203255750001503E /* switchviewericwUITests.swift */; };
+		FAD61B19203257C90001503E /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B17203257C90001503E /* SwitchingViewController.swift */; };
+		FAD61B1A203257C90001503E /* SwitchingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD61B18203257C90001503E /* SwitchingViewController.xib */; };
+		FAD61B1D203259960001503E /* blueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B1B203259960001503E /* blueViewController.swift */; };
+		FAD61B20203259BE0001503E /* yellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B1F203259BE0001503E /* yellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		FAD61AE6203255750001503E /* switchviewericw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switchviewericw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD61AE9203255750001503E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAD61AEB203255750001503E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAD61AEE203255750001503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD61AF0203255750001503E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD61AF3203255750001503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		FAD61B05203255750001503E /* switchviewericwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchviewericwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD61B09203255750001503E /* switchviewericwUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switchviewericwUITests.swift; sourceTree = "<group>"; };
 		FAD61B0B203255750001503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD61B17203257C90001503E /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		FAD61B18203257C90001503E /* SwitchingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchingViewController.xib; sourceTree = "<group>"; };
+		FAD61B1B203259960001503E /* blueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blueViewController.swift; sourceTree = "<group>"; };
+		FAD61B1F203259BE0001503E /* yellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		FAD61AE8203255750001503E /* switchviewericw */ = {
 			isa = PBXGroup;
 			children = (
+				FAD61B1F203259BE0001503E /* yellowViewController.swift */,
+				FAD61B1B203259960001503E /* blueViewController.swift */,
+				FAD61B17203257C90001503E /* SwitchingViewController.swift */,
 				FAD61AE9203255750001503E /* AppDelegate.swift */,
-				FAD61AEB203255750001503E /* ViewController.swift */,
 				FAD61AED203255750001503E /* Main.storyboard */,
 				FAD61AF0203255750001503E /* Assets.xcassets */,
 				FAD61AF2203255750001503E /* LaunchScreen.storyboard */,
 				FAD61AF5203255750001503E /* Info.plist */,
+				FAD61B18203257C90001503E /* SwitchingViewController.xib */,
 			);
 			path = switchviewericw;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 				FAD61AF4203255750001503E /* LaunchScreen.storyboard in Resources */,
 				FAD61AF1203255750001503E /* Assets.xcassets in Resources */,
 				FAD61AEF203255750001503E /* Main.storyboard in Resources */,
+				FAD61B1A203257C90001503E /* SwitchingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD61AEC203255750001503E /* ViewController.swift in Sources */,
+				FAD61B20203259BE0001503E /* yellowViewController.swift in Sources */,
+				FAD61B1D203259960001503E /* blueViewController.swift in Sources */,
 				FAD61AEA203255750001503E /* AppDelegate.swift in Sources */,
+				FAD61B19203257C90001503E /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
